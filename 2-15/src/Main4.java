@@ -30,8 +30,8 @@ public class Main4 {
         System.out.print("予約したい座席の列(1-6): ");
         int col = scanner.nextInt();
 
-        if (row >= 1 && row < seats.length &&
-            col >= 1 && col < seats[0].length) {
+        if (row >= 1 && row <= seats.length &&
+            col >= 1 && col <= seats[0].length) {
 
             if (seats[row - 1][col - 1] == 1) {
                 System.out.println();
