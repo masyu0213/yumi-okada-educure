@@ -11,6 +11,6 @@ public class Pet {
     }
 
     public void showEnergy() {
-        System.out.println("Energy: " + energy);
+        System.out.println("現在の体力: " + energy);
     }
 }

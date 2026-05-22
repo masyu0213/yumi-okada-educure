@@ -9,10 +9,10 @@ public class Main1 {
 
         myPet.eat();
         System.out.println(myPet.name + "は食事をして元気になった！");
-        System.out.println("現在の体力: " + myPet.energy);
- 
+        myPet.showEnergy();
+
         myPet.play();
         System.out.println(myPet.name + "は遊んで疲れた！");
-        System.out.println("現在の体力: " + myPet.energy);
+        myPet.showEnergy();
     }
 }
