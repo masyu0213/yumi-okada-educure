@@ -1,9 +1,9 @@
 public class Main2 {
     public static void main(String[] args) {
         Book myBook = new Book();
-        myBook.setTitle("「Java入門」");
+        myBook.setTitle("Java入門");
 
-        System.out.println(myBook.getTitle() + "を登録しました");
+        System.out.println("「" + myBook.getTitle() + "」を登録しました");
 
         myBook.lend(); // 本を貸し出す
         myBook.lend(); // もう一度貸し出そうとする

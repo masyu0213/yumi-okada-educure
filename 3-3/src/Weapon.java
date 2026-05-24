@@ -1,7 +1,7 @@
 public class Weapon {
     int attack;
     int durability;
-    int MAX_DURABILITY = 10;
+    final int MAX_DURABILITY = 10;
     boolean isRepaired;
 
     // 武器の名前と攻撃力を設定する
